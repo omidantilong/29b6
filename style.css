@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  margin: 0 0 2rem 0;
+  font-size: 4rem;
+}
+p {
+  margin: 0 0 0.25rem 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: #222;
+}
+
+.wrap {
+  padding: 30px;
+}
+
+.external {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.external a {
+  opacity: 0.5;
+}
+.external a:hover {
+  opacity: 1;
+}
+.external a img {
+  width: 24px;
+  height: 24px;
+}
+
+.intro {
+  color: white;
+  font-weight: bold;
+  background: #8a2387;
+  font-size: 2rem;
+  background: linear-gradient(to top, #8a2387, #e94057, #f27121);
+  background: linear-gradient(to top, #b648b0, #e85d6f, #ec813f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.links {
+  font-size: 1rem;
+  margin: 3rem 0 0 0;
+  list-style: none;
+  padding: 0;
+}
+
+.links a,
+.links span {
+  color: #666;
+  text-decoration: none;
+  font-weight: bold;
+}
+.links a:hover {
+  color: #ccc;
+}
+@media screen and (min-width: 20rem) {
+  .intro p {
+    font-size: 8vw;
+  }
+  .links {
+    font-size: 6vw;
+  }
+}
+@media screen and (min-width: 36rem) {
+  .wrap {
+    padding: 3rem;
+  }
+  .external {
+    top: 3rem;
+    right: 3rem;
+  }
+  .intro p {
+    font-size: 3rem;
+  }
+  .links {
+    font-size: 2rem;
+  }
+}
