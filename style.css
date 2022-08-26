@@ -69,6 +69,13 @@ body {
 .links a:hover {
   color: #ccc;
 }
+
+footer {
+  color: #666;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
 @media screen and (min-width: 20rem) {
   .intro p {
     font-size: 8vw;
